@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+          <h1>AI Movie Plot Generator</h1>
+        </header>
+        <main>
+          <div class="form-container">
+            <form id="movie-generator-form">
+              <input
+                type="text"
+                placeholder="Enter the topic of a poem"
+                autofocus
+                required
+                autocomplete="off"
+                class="instructions"
+                id="user-instructions"
+              />
+              <input type="submit" class="submit-button" />
+            </form>
+           <div class="hint">i.e: Game of thrones, Barbie, Solo leveling,etc </div>
+          </div>
+          <div class="plot hidden" id="plot"></div>
+        </main>
+  
+        <footer>
+          This AI project was coded by
+          <a href="https://github.com/Natasha2702" target="_blank">Natasha Moyane</a>
+          and is
+          <a
+            href="https://github.com/Natasha2702/movie-plot-generator"
+            target="_blank"
+          >
+            open-sourced on GitHub</a
+          >
+          and is
+          <a href="#" target="_blank"
+            >hosted on Netlify</a
+          >
+        </footer>
+        <script src="src/index.js"></script>
+</body>
+</html>
