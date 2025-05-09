@@ -1,0 +1,91 @@
+body {
+    background: radial-gradient(circle at 10% 20%, rgb(222, 168, 248) 0%, rgb(168, 222, 248) 21.8%, rgb(189, 250, 205) 35.6%, rgb(243, 250, 189) 52.9%, rgb(250, 227, 189) 66.8%, rgb(248, 172, 172) 90%, rgb(254, 211, 252) 99.7%);;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  a {
+    color: purple ;
+  }
+  
+  .container {
+    margin: 120px auto;
+    max-width: 600px;
+  }
+  
+  header {
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.5;
+    color: #272044;
+  }
+  
+  .form-container {
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+
+  form{ display: flex;}
+  
+  .instructions {
+    padding: 16px;
+    border: 1px solid rgba(39, 33, 66, 0.5);
+    width: 80%;
+    font-size: 16px;
+    border-radius: 50px;
+    line-height: 20px;
+    color: #272044;
+  }
+  
+  .submit-button {
+    margin-left: 15px;
+    background: pink;
+    color: white;
+    border: none;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 14px 24px;
+  }
+  
+  .plot {
+    font-size: 10px;
+    background-color: #fff;
+    padding: 20px;
+    line-height: 2;
+    border-left: 3px solid #885df1;
+    box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+  }
+
+.hint {
+  line-height: 1.5;
+  margin-top: 5px;
+  opacity: 0.6;
+  font-size: 12px;
+  color: #272044;
+}
+
+
+ /* .hidden {
+  display: none;
+}
+
+.plot strong {
+  color: pink;
+}*/
+
+
+
+
+  footer {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
+}
